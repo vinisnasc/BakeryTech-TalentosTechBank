@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bakery.Dados.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210731123436_BancoBakery")]
+    [Migration("20210731132920_BancoBakery")]
     partial class BancoBakery
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
