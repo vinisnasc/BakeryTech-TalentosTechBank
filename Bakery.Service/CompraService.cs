@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//TODO VENDA validacao para nao deixar vender materia prima
+
 namespace Bakery.Service
 {
     public class CompraService : ICompraService
@@ -54,7 +54,7 @@ namespace Bakery.Service
 
             foreach (var iV in compraCompleta.ItemCompras)
             {
-                compraCompleta.ValorTotal += iV.Quantidade * iV.Produto.ValorVenda; // TODO: fornecedor?
+                compraCompleta.ValorTotal += iV.Quantidade * iV.Produto.ValorVenda; 
             }
             _bibliotecaRepositorio.CompraRepositorio.Alterar(compraCompleta);
 
