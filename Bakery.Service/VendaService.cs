@@ -100,6 +100,14 @@ namespace Bakery.Service
                 else
                     count += 0;
             }
+            foreach (ItemVenda y in itemVenda)
+            {
+                Produto produtoVenda = _bibliotecaRepositorio.ProdutoRepositorio.SelecionarPorId(y.IdProduto);
+                if (produtoVenda.Status == false)
+                {
+                    count += 1;
+                }
+            }
             return count;
         }
     }

@@ -19,5 +19,10 @@ namespace Bakery.Dados.Repositorio
         {
             return base.Incluir(materialReceita);
         }
+
+        public override bool Deletar(MaterialReceita materialReceita)
+        {
+            return base.Deletar(materialReceita);
+        }
     }
 }

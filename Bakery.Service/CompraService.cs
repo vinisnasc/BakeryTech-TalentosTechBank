@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//TODO VENDA validacao para nao deixar vender materia prima
 namespace Bakery.Service
 {
     public class CompraService : ICompraService

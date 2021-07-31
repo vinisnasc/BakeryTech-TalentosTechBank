@@ -12,10 +12,8 @@ namespace Bakery.Model.Interfaces.Services
         public bool CadastrarProduto(ProdutoDTO dto);
         public Produto SelecionarPorId(int id);
         public List<Produto> SelecionarTudo();
-        bool AlterarValorVenda(int id, ProdutoDTO dto);
         void AlterarStatus(int id);
         bool AlterarDadosProduto(int id, ProdutoDTO dto);
         bool VincularReceita(int id, List<MaterialReceitaDTO> dto);
-        Produto VisualizarReceita(int id);
     }
 }

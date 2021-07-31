@@ -23,7 +23,7 @@ namespace Bakery.Dados
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly()); // TODO: Retirar apos criar os maps
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly()); 
             base.OnModelCreating(modelBuilder);
         }
     }

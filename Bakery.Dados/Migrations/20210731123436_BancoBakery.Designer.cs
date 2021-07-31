@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bakery.Dados.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210730171544_testeComCompras")]
-    partial class testeComCompras
+    [Migration("20210731123436_BancoBakery")]
+    partial class BancoBakery
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -84,7 +84,7 @@ namespace Bakery.Dados.Migrations
                         new
                         {
                             Id = 1,
-                            SaldoEmCaixa = 0.0
+                            SaldoEmCaixa = 5000.0
                         });
                 });
 
@@ -186,6 +186,9 @@ namespace Bakery.Dados.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Realizada")
+                        .HasColumnType("bit");
 
                     b.Property<double>("ValorTotal")
                         .HasColumnType("float");

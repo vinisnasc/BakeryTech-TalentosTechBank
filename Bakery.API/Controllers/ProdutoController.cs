@@ -29,12 +29,6 @@ namespace Bakery.API.Controllers
             return _produtoService.SelecionarPorId(id);
         }
 
-        [HttpGet("{id}/VisualizarReceita")]
-        public Produto VisualizarReceita(int id)
-        {
-            return _produtoService.VisualizarReceita(id);
-        }
-
         [HttpPost]
         public IActionResult Post([FromBody] ProdutoDTO dto)
         {
@@ -45,7 +39,7 @@ namespace Bakery.API.Controllers
             }
             else
             {
-                return BadRequest("Não é possivel cadastrar com dois nomes!");
+                return BadRequest("Ocorreu um erro ao cadastrar!");
             }
         }
 
@@ -54,13 +48,6 @@ namespace Bakery.API.Controllers
         {
             _produtoService.AlterarDadosProduto(id, dto);
             return Ok("Produto alterado com sucesso!");
-        }
-
-        [HttpPut("{id}/AlterarValorVenda")]
-        public IActionResult PutAlterarValorVenda(int id, [FromBody] ProdutoDTO dto)
-        {
-            _produtoService.AlterarValorVenda(id, dto);
-            return Ok("Valor de venda alterado com sucesso!");
         }
 
         [HttpPut("{id}/VincularReceita")]
@@ -73,7 +60,7 @@ namespace Bakery.API.Controllers
             }
             else
             {
-                return BadRequest("Não é possivel incluir receita em produtos não fabricaveis");
+                return BadRequest("Um ou mais erros foram encontrados!");
             }
         }
 

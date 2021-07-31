@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bakery.UI", "Bakery\Bakery.UI.csproj", "{AA42494B-80C2-456F-B236-C234E6592897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bakery.Model", "Bakery.Model\Bakery.Model.csproj", "{7F6BEA1B-48D9-4DED-84AC-60C43064CCEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bakery.Model", "Bakery.Model\Bakery.Model.csproj", "{7F6BEA1B-48D9-4DED-84AC-60C43064CCEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bakery.Service", "Bakery.Service\Bakery.Service.csproj", "{1D50DC38-AB66-4415-B45E-FEE751A26593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bakery.Service", "Bakery.Service\Bakery.Service.csproj", "{1D50DC38-AB66-4415-B45E-FEE751A26593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bakery.Dados", "Bakery.Dados\Bakery.Dados.csproj", "{E0599B9E-1B34-48AE-BBE7-C38A57D4F099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bakery.Dados", "Bakery.Dados\Bakery.Dados.csproj", "{E0599B9E-1B34-48AE-BBE7-C38A57D4F099}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bakery.API", "Bakery.API\Bakery.API.csproj", "{9B74F7E5-CE22-48BF-BFB4-87556A2EE6D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bakery.API", "Bakery.API\Bakery.API.csproj", "{9B74F7E5-CE22-48BF-BFB4-87556A2EE6D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA42494B-80C2-456F-B236-C234E6592897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA42494B-80C2-456F-B236-C234E6592897}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA42494B-80C2-456F-B236-C234E6592897}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA42494B-80C2-456F-B236-C234E6592897}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F6BEA1B-48D9-4DED-84AC-60C43064CCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F6BEA1B-48D9-4DED-84AC-60C43064CCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6BEA1B-48D9-4DED-84AC-60C43064CCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU

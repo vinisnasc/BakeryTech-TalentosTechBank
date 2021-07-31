@@ -36,7 +36,7 @@ namespace Bakery.API.Controllers
             if (result == true)
                 return Ok("Venda Realizada");
             else
-                return BadRequest("Um ou mais produtos estão em falta no estoque!");
+                return BadRequest("Um ou mais produtos estão em falta no estoque! Ou não estão ativos no sistema!");
         }
     }
 }

@@ -46,6 +46,13 @@ namespace Bakery.Dados.Repositorio
             return contexto.Set<T>().ToList();
         }
 
+        public virtual bool Deletar(T entity)
+        {
+            contexto.Set<T>().Remove(entity);
+            contexto.SaveChanges();
+            return true;
+        }
+
         public void Dispose()
         {
             contexto.Dispose();

@@ -82,7 +82,7 @@ namespace Bakery.Dados.Migrations
                         new
                         {
                             Id = 1,
-                            SaldoEmCaixa = 0.0
+                            SaldoEmCaixa = 5000.0
                         });
                 });
 

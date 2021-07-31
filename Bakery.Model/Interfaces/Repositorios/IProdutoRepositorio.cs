@@ -12,7 +12,6 @@ namespace Bakery.Model.Interfaces.Repositorios
         bool Incluir(Produto produto);
         List<Produto> SelecionarTudo();
         bool Alterar(Produto produto);
-        Produto VisualizarReceita(int id);
         Produto ProcurarPorNome(string nome);
     }
 }

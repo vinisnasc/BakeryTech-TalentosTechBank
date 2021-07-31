@@ -9,5 +9,6 @@ namespace Bakery.Model.Interfaces.Repositorios
     public interface IMaterialReceitaRepositorio
     {
         bool Incluir(MaterialReceita materialReceita);
+        bool Deletar(MaterialReceita materialReceita);
     }
 }

@@ -37,11 +37,6 @@ namespace Bakery.Dados.Repositorio
             return base.SelecionarTudo();
         }
 
-        public Produto VisualizarReceita(int id)
-        {
-            return _contexto.Produto.Include(e => e.MaterialReceitas).FirstOrDefault(x => x.Id == id);
-        }
-
         public Produto ProcurarPorNome(string nome)
         {
             return contexto.Produto.FirstOrDefault(x => x.Nome == nome);

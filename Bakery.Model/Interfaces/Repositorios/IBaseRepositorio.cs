@@ -10,5 +10,6 @@ namespace Bakery.Model.Interfaces.Repositorios
     {
         T SelecionarPorId(int id);
         List<T> SelecionarTudo();
+
     }
 }
