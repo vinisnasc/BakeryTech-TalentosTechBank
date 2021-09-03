@@ -11,7 +11,7 @@ O projeto é um gerenciador de padaria com as seguintes funcionalidades:
 -Gestão de vendas;  
 -Saldo em caixa.
 
-O trabalho foi realizado em grupo, com os seguintes integrantes:
+O trabalho foi realizado em grupo, com os seguintes integrantes:  
 [Ana Carolina](https://github.com/AnaCarolinaFortunato);  
 [Leticia Coutinho](https://github.com/leticiacouti);  
 [Magno Milhomen](https://github.com/magnomil);  
