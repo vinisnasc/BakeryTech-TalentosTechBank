@@ -42,7 +42,7 @@ namespace Bakery.API
 
             services.AddDbContext<Contexto>(
                 options => options.UseSqlServer
-                ("Server=DESKTOP-8TTJRTN;Database=BakeryTech;Trusted_Connection=True;MultipleActiveResultSets=true"));
+                ("Server=DESKTOP-R9JFMSC\\SQLEXPRESS;Trusted_Connection=True;MultipleActiveResultSets=true"));
 
             services.AddScoped<IBibliotecaRepositorio, BibliotecaRepositorio>();
             services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();

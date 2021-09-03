@@ -2,7 +2,7 @@
 
 namespace Bakery.Dados.Migrations
 {
-    public partial class BancoBakery : Migration
+    public partial class tabelaInicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bakery.Dados.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210731132920_BancoBakery")]
-    partial class BancoBakery
+    [Migration("20210903000218_tabelaInicial")]
+    partial class tabelaInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
